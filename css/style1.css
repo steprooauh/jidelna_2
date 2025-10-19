@@ -1,0 +1,42 @@
+h1 {
+    text-shadow: 10px 10px 5px rgba(121, 121, 121, 0.295);
+}
+
+.nadpis1 {
+    background-color: rgba(128, 128, 128, 0.308);
+    border: 1px solid black;
+    transition: background-color 0.5s ease;
+}
+
+.nadpis-obrazek1 {
+    max-width: 200px;
+    transition: transform 0.5s ease;
+}
+
+.nadpis1:hover {
+    background-color: rgba(128, 128, 128, 0.699);
+}
+
+.nadpis1:hover .nadpis-obrazek1 {
+    transform: rotate(360deg);
+}
+
+.responzivnost1 {
+    font-size: clamp(41px, 8vw, 80px);
+}
+
+@media (max-width: 767px) {
+    .responzivnost2 {
+        width: 250px;
+    }
+
+    @media (max-width: 435px) {
+        .responzivnost1 {
+            font-size: 25px;
+        }
+
+        .responzivnost2 {
+            width: 100px;
+        }
+    }
+}
