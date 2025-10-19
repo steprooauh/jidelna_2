@@ -13,4 +13,24 @@ class Home extends BaseController
     {
         return view('jidelnicek');
     }
+
+    public function onas()
+    {
+        return view ('onas');
+    }
+
+    public function nastym()
+    {
+        return view ('nastym');
+    }
+
+    public function clanky()
+    {
+        return view ('clanky');
+    }
+
+    public function prihlaseni()
+    {
+        return view ('prihlaseni');
+    }
 }

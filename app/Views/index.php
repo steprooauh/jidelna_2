@@ -6,7 +6,7 @@
     <div class="p-3 mb-4 rounded nadpis1">
         <div class="d-flex flex-column flex-md-row align-items-center justify-content-center">
             <img src="img/image.png" alt="logo" class="nadpis-obrazek1 responzivnost2">
-            <h1 class="fw-bold ms-md-3 responzivnost1">
+            <h1 class="fw-bold ms-md-3 responzivnost1 text1">
                 JÍDELNA TLUMAČOV
             </h1>
         </div>

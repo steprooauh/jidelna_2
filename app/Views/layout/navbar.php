@@ -17,13 +17,13 @@
                         <a class="nav-link" href="<?= base_url('/jidelnicek'); ?>">Jídelníček</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="3.html">O Nás</a>
+                        <a class="nav-link" href="<?= base_url('/onas'); ?>">O Nás</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="4.html">Náš tým</a>
+                        <a class="nav-link" href="<?= base_url('/nastym'); ?>">Náš tým</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="5.html">Články</a>
+                        <a class="nav-link" href="<?= base_url('/clanky'); ?>">Články</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -32,7 +32,7 @@
                         </a>
                         <ul class="dropdown-menu p-4" style="width: 250px;">
                             <h5 class="mb-3 text-center">Přihlášení</h5>
-                            <form action="2_prihlaseni.html">
+                            <form action="<?= base_url('prihlaseni'); ?>">
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="floatingInput"
                                         placeholder="Uživatelské jméno" required>
